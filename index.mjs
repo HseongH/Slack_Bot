@@ -9,7 +9,7 @@ export const handler = async () => {
   try {
     client.chat.postMessage({
       channel: process.env.SLACK_CHANNEL,
-      text: 'ProjectMAD스크럼\n\n1.어제한일\n\n2.오늘할일',
+      text: 'Hello World',
     });
   } catch (error) {
     console.error(error);
